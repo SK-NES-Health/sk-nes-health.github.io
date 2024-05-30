@@ -203,3 +203,60 @@ button {
   height: 50vh;
   width: 100%;
 }
+
+/* application techniques page */
+
+.grid-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  margin: 20px 0px;
+  padding: 10px;
+  border: 1px solid #b6d1ef;
+  border-radius: 5px;
+}
+
+.grid-item img {
+  width: 50%;
+}
+
+.grid-item2 {
+  width: 50%;
+  height: fit-content;
+}
+
+.ATDnavbar {
+  width: 70%;
+
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ATDnavbar button {
+  margin: 10px;
+}
+
+@media (max-width: 1200px) {
+  .ATDnavbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ATDnavbar button {
+    font-size: 10px;
+  }
+}
