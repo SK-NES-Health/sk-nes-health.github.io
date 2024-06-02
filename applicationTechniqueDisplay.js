@@ -35,3 +35,7 @@ gridItems.forEach((item, index) => {
   // Add the navbar item to the navbar
   navbar.appendChild(navbarItem)
 })
+
+function scrollToElement(elementId) {
+  document.getElementById(elementId).scrollIntoView({ behavior: "smooth" })
+}
